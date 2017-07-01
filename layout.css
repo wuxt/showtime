@@ -39,10 +39,16 @@
 .text-con{
     width: 25%;
 }
+.img-con{
+    width: 75%;
+}
 
 @media screen and (max-width:768px){
     #container{
         flex-direction: column;
+    }
+    .img-con{
+        width: 100%;
     }
     .text-con{
         width: 100%;
