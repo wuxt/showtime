@@ -36,9 +36,15 @@
     color: gray;
     line-height: 2
 }
+.text-con{
+    width: 25%;
+}
 
 @media screen and (max-width:768px){
     #container{
         flex-direction: column;
+    }
+    .text-con{
+        width: 100%;
     }
 }
